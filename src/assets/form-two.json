@@ -1,0 +1,87 @@
+[
+  {
+    "type": "input",
+    "key": "name",
+    "props": {
+      "label": "Name",
+      "required": true
+    }
+  },
+  {
+    "type": "input",
+    "key": "username",
+    "props": {
+      "label": "User Name"
+    }
+  },
+  {
+    "type": "input",
+    "key": "email",
+    "props": {
+      "label": "Email"
+    }
+  },
+  {
+    "type": "input",
+    "key": "phone",
+    "props": {
+      "label": "Phone",
+      "disabled": true
+    }
+  },
+  {
+    "key": "address",
+    "props": {
+      "label": "Address"
+    },
+    "fieldGroup": [
+      {
+        "type": "input",
+        "key": "street1122",
+        "props": {
+          "label": "Street",
+          "disabled": true
+        }
+      },
+      {
+        "type": "input",
+        "key": "city",
+        "props": {
+          "label": "City",
+          "disabled": true
+        }
+      },
+      {
+        "type": "input",
+        "key": "zipcode",
+        "props": {
+          "label": "Zip Code",
+          "disabled": true
+        }
+      },
+      {
+        "key": "geo",
+        "props": {
+          "label": "Geo"
+        },
+        "fieldGroup": [
+          {
+            "type": "input",
+            "key": "lat",
+            "props": {
+              "label": "Latitude",
+              "disabled": false
+            }
+          },
+          {
+            "type": "input",
+            "key": "lng",
+            "props": {
+              "label": "Longitude"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
